@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DCEA32E7885EF5F5AAA91AA /* Pods_PLShopCart.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 901DD130A76C74C0E52E7CB8 /* Pods_PLShopCart.framework */; };
+		72371384D4C2D45ED6AB57DD /* Pods_PLShopCart_PLShopCartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1BBD48C8E16D927976DAF15 /* Pods_PLShopCart_PLShopCartUITests.framework */; };
+		E8EE0F28E4775D0E4681D881 /* Pods_PLShopCartTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F62F9BB8E86FE22AA12564F /* Pods_PLShopCartTests.framework */; };
 		ED270BBE24892B28005F70F4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED270BBD24892B28005F70F4 /* AppDelegate.m */; };
 		ED270BC124892B28005F70F4 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED270BC024892B28005F70F4 /* SceneDelegate.m */; };
 		ED270BC424892B28005F70F4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED270BC324892B28005F70F4 /* ViewController.m */; };
@@ -36,6 +39,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		233120C20F05D9D4184257F1 /* Pods-PLShopCart.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLShopCart.release.xcconfig"; path = "Target Support Files/Pods-PLShopCart/Pods-PLShopCart.release.xcconfig"; sourceTree = "<group>"; };
+		57B6D3629D0048FDA0C77C8E /* Pods-PLShopCart.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLShopCart.debug.xcconfig"; path = "Target Support Files/Pods-PLShopCart/Pods-PLShopCart.debug.xcconfig"; sourceTree = "<group>"; };
+		883BB0B7B5FDEA5549AC5B58 /* Pods-PLShopCartTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLShopCartTests.debug.xcconfig"; path = "Target Support Files/Pods-PLShopCartTests/Pods-PLShopCartTests.debug.xcconfig"; sourceTree = "<group>"; };
+		901DD130A76C74C0E52E7CB8 /* Pods_PLShopCart.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PLShopCart.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9F62F9BB8E86FE22AA12564F /* Pods_PLShopCartTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PLShopCartTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A77D96645C31C7E564D3A042 /* Pods-PLShopCart-PLShopCartUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLShopCart-PLShopCartUITests.debug.xcconfig"; path = "Target Support Files/Pods-PLShopCart-PLShopCartUITests/Pods-PLShopCart-PLShopCartUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		AFC5F0018949287F78EF62F1 /* Pods-PLShopCartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLShopCartTests.release.xcconfig"; path = "Target Support Files/Pods-PLShopCartTests/Pods-PLShopCartTests.release.xcconfig"; sourceTree = "<group>"; };
+		BADCB6346509875313747A5B /* Pods-PLShopCart-PLShopCartUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PLShopCart-PLShopCartUITests.release.xcconfig"; path = "Target Support Files/Pods-PLShopCart-PLShopCartUITests/Pods-PLShopCart-PLShopCartUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1BBD48C8E16D927976DAF15 /* Pods_PLShopCart_PLShopCartUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PLShopCart_PLShopCartUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED270BB924892B28005F70F4 /* PLShopCart.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PLShopCart.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED270BBC24892B28005F70F4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED270BBD24892B28005F70F4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -61,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DCEA32E7885EF5F5AAA91AA /* Pods_PLShopCart.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8EE0F28E4775D0E4681D881 /* Pods_PLShopCartTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +89,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72371384D4C2D45ED6AB57DD /* Pods_PLShopCart_PLShopCartUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		15B86856B3DE64F3B5EA8CAF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				57B6D3629D0048FDA0C77C8E /* Pods-PLShopCart.debug.xcconfig */,
+				233120C20F05D9D4184257F1 /* Pods-PLShopCart.release.xcconfig */,
+				A77D96645C31C7E564D3A042 /* Pods-PLShopCart-PLShopCartUITests.debug.xcconfig */,
+				BADCB6346509875313747A5B /* Pods-PLShopCart-PLShopCartUITests.release.xcconfig */,
+				883BB0B7B5FDEA5549AC5B58 /* Pods-PLShopCartTests.debug.xcconfig */,
+				AFC5F0018949287F78EF62F1 /* Pods-PLShopCartTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8A87612BB29D1298675D63F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				901DD130A76C74C0E52E7CB8 /* Pods_PLShopCart.framework */,
+				C1BBD48C8E16D927976DAF15 /* Pods_PLShopCart_PLShopCartUITests.framework */,
+				9F62F9BB8E86FE22AA12564F /* Pods_PLShopCartTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED270BB024892B28005F70F4 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +127,8 @@
 				ED270BD724892B2E005F70F4 /* PLShopCartTests */,
 				ED270BE224892B2E005F70F4 /* PLShopCartUITests */,
 				ED270BBA24892B28005F70F4 /* Products */,
+				15B86856B3DE64F3B5EA8CAF /* Pods */,
+				8A87612BB29D1298675D63F4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -144,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED270BE824892B2E005F70F4 /* Build configuration list for PBXNativeTarget "PLShopCart" */;
 			buildPhases = (
+				013F80F2B571CE5A9BD213E0 /* [CP] Check Pods Manifest.lock */,
 				ED270BB524892B28005F70F4 /* Sources */,
 				ED270BB624892B28005F70F4 /* Frameworks */,
 				ED270BB724892B28005F70F4 /* Resources */,
+				11682318AF9E11C34464A79A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED270BEB24892B2E005F70F4 /* Build configuration list for PBXNativeTarget "PLShopCartTests" */;
 			buildPhases = (
+				B90D8F66EA0C1D9287C1EC6B /* [CP] Check Pods Manifest.lock */,
 				ED270BD024892B2E005F70F4 /* Sources */,
 				ED270BD124892B2E005F70F4 /* Frameworks */,
 				ED270BD224892B2E005F70F4 /* Resources */,
@@ -179,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED270BEE24892B2E005F70F4 /* Build configuration list for PBXNativeTarget "PLShopCartUITests" */;
 			buildPhases = (
+				D3314DE9FDBEDFD0AD4C5FDA /* [CP] Check Pods Manifest.lock */,
 				ED270BDB24892B2E005F70F4 /* Sources */,
 				ED270BDC24892B2E005F70F4 /* Frameworks */,
 				ED270BDD24892B2E005F70F4 /* Resources */,
+				5F3919F0E7CB8F4B6907A44A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -261,6 +307,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		013F80F2B571CE5A9BD213E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PLShopCart-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		11682318AF9E11C34464A79A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PLShopCart/Pods-PLShopCart-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PLShopCart/Pods-PLShopCart-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PLShopCart/Pods-PLShopCart-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F3919F0E7CB8F4B6907A44A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PLShopCart-PLShopCartUITests/Pods-PLShopCart-PLShopCartUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PLShopCart-PLShopCartUITests/Pods-PLShopCart-PLShopCartUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PLShopCart-PLShopCartUITests/Pods-PLShopCart-PLShopCartUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B90D8F66EA0C1D9287C1EC6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PLShopCartTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3314DE9FDBEDFD0AD4C5FDA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PLShopCart-PLShopCartUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ED270BB524892B28005F70F4 /* Sources */ = {
@@ -437,6 +586,7 @@
 		};
 		ED270BE924892B2E005F70F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57B6D3629D0048FDA0C77C8E /* Pods-PLShopCart.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -453,6 +603,7 @@
 		};
 		ED270BEA24892B2E005F70F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 233120C20F05D9D4184257F1 /* Pods-PLShopCart.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -469,6 +620,7 @@
 		};
 		ED270BEC24892B2E005F70F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 883BB0B7B5FDEA5549AC5B58 /* Pods-PLShopCartTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -488,6 +640,7 @@
 		};
 		ED270BED24892B2E005F70F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AFC5F0018949287F78EF62F1 /* Pods-PLShopCartTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -507,6 +660,7 @@
 		};
 		ED270BEF24892B2E005F70F4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A77D96645C31C7E564D3A042 /* Pods-PLShopCart-PLShopCartUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PLShopCartUITests/Info.plist;
@@ -524,6 +678,7 @@
 		};
 		ED270BF024892B2E005F70F4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BADCB6346509875313747A5B /* Pods-PLShopCart-PLShopCartUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PLShopCartUITests/Info.plist;
